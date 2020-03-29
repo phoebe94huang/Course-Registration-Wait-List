@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/activity_margin">
+
+    <TextView android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen8"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/newStudentTitle"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/newStudentTitle"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/studentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/student_name"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/studentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/hintEnterStudent"
+        android:inputType="textMultiLine|textPersonName|textCapSentences"
+        android:lines="1"
+        android:textColorHint="@color/hintEnterStudent"
+        android:textSize="@dimen/inputNewStudent" />
+
+    <TextView
+        android:id="@+id/priorityText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/priority_level"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/studentPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/hintEnterPriority"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="1"
+        android:textColorHint="@color/hintEnterStudent"
+        android:textSize="@dimen/inputNewStudent" />
+
+    <TextView
+        android:id="@+id/studentIDText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/student_id"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/studentID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/hintEnterID"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="1"
+        android:textColorHint="@color/hintEnterStudent"
+        android:textSize="@dimen/inputNewStudent" />
+
+    <TextView
+        android:id="@+id/studentEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/student_email"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/studentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="@string/hintEnterEmail"
+        android:inputType="textMultiLine|textEmailAddress"
+        android:lines="1"
+        android:textColorHint="@color/hintEnterStudent"
+        android:textSize="@dimen/inputNewStudent" />
+
+</LinearLayout>

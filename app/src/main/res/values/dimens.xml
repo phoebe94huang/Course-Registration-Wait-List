@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="msgNoStudents">26sp</dimen>
+    <dimen name="marginTopNoStudents">120dp</dimen>
+    <dimen name="newStudentTitle">20sp</dimen>
+    <dimen name="dimen8">8dp</dimen>
+    <dimen name="dimen2">2dp</dimen>
+    <dimen name="inputNewStudent">14sp</dimen>
+    <dimen name="timestamp">14sp</dimen>
+    <dimen name="listText">16sp</dimen>
+</resources>
